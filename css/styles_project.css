@@ -1,0 +1,42 @@
+/* Font color styles */
+body {
+    color: #333; /* Font color */
+}
+
+h1 {
+    color: #007bff; /* Blue heading color */
+}
+
+h2 {
+    color: #28a745; /* Green heading color */
+}
+
+p {
+    color: #6c757d; /* Gray paragraph text color */
+}
+
+/* Font family styles */
+body {
+    font-family: 'Arial', sans-serif; /* Font family */
+}
+
+/* Div positioning and styling */
+.styled-div {
+    background-color: #f8f9fa; /* Light gray background color */
+    color: #333; /* Font color */
+    border: 1px solid #ccc; /* Border */
+    padding: 20px; /* Padding */
+    margin: 10px 0; /* Margin */
+}
+.content {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between elements */
+}
+
+.side-by-side {
+    flex: 1;
+    max-width: 50%; /* Adjust the maximum width for each element */
+}
