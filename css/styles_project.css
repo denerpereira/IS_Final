@@ -40,3 +40,63 @@ body {
     flex: 1;
     max-width: 50%; /* Adjust the maximum width for each element */
 }
+/* CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.side-by-side {
+    flex: 0 0 48%;
+}
+
+.side-by-side iframe {
+    width: 100%;
+}
+
+.styled-div {
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
